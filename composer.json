@@ -1,0 +1,15 @@
+{
+    "name": "hierarchy/images",
+    "description": "The HiERARCHY Platform Images.",
+    "keywords": ["HiCMS", "Platform", "Hierarchy"],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.5.9",
+        "intervention/imagecache": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HiCMS\\Image\\": "src/"
+        }
+    }
+}
